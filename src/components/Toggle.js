@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../sass/toggle.scss';
 
 const Toggle = () => {
 

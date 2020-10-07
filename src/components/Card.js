@@ -1,6 +1,5 @@
 import React from 'react';
-import Button from './Button.js';
-
+import '../sass/card.scss';
 
 const Card = () => {
 
