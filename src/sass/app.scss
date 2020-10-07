@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .card-section {
+        display: flex;
+        flex-direction: row;
+
+    }
+}

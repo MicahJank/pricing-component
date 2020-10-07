@@ -1,0 +1,38 @@
+
+.top-toggle {
+
+
+    .toggle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .toggle-btn {
+            cursor: pointer;
+            position: relative;
+            width: 50px;
+            padding: 4px;
+            border-radius: 20px;
+            background: linear-gradient(to right,  hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+            border: none;
+
+            &:focus {
+                outline: none;
+            }
+
+            .circle {
+                background-color: white;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                transition: transform 0.1s;
+            }
+
+            // animates the toggle button
+            .active {
+                transform: translateX(22px);
+                transition: transform 0.1s;
+            }
+        }
+    }
+}

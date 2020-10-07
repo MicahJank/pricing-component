@@ -2,6 +2,7 @@ import React from 'react';
 import Toggle from './components/Toggle.js';
 import Card from './components/Card.js';
 import './sass/app.scss';
+import './sass/variables.scss';
 function App() {
   return (
     <div className="App">
