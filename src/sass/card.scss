@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    width: 350px;
+    color: hsl(232, 13%, 33%);
+    h1 {
+        font-size: 7rem;
+        margin: 20px 0;
+    }
+
+    h5 {
+        font-size: 1.8rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0;
+        width: 100%;
+        li {
+            text-align: center;
+            width: 100%;
+            font-size: 1.5rem;
+            padding: 15px 0;
+            border-bottom: hsl(234, 14%, 74%) 1px solid;
+        }
+
+        li:first-child {
+            border-top: hsl(234, 14%, 74%) 1px solid;
+        }
+
+        
+
+    }
+
+}

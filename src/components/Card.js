@@ -1,16 +1,16 @@
 import React from 'react';
 import '../sass/card.scss';
 
-const Card = () => {
+const Card = ({type, price, storage, users, send}) => {
 
     return (
         <div className='card'>
-            <h5>Professional</h5>
-            <h1>Price Goes Here</h1>
+            <h5>{type}</h5>
+            <h1><span>$</span>{price}</h1>
             <ul className='features'>
-                <li className='item'>Storage Here</li>
-                <li className='item'>Users Allowed Here</li>
-                <li className='item'>Sends up to x GB</li>
+                <li className='item'>{storage} Storage</li>
+                <li className='item'>{users} Users Allowed</li>
+                <li className='item'>Send up to {send}</li>
             </ul>
             <button>Learn More</button>
         </div>

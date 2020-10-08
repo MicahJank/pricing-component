@@ -67,6 +67,13 @@ body {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    background-color: hsl(240, 78%, 98%);
+    letter-spacing: 1px;
+}
+
+.App {
+    background: url('../images/bg-bottom.svg') left bottom no-repeat, url('../images/bg-top.svg') right top no-repeat;
+    background-repeat: no-repeat;
 }
 
 h1 {
