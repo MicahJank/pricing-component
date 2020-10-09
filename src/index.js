@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 // import './sass/reset.scss';
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
 import './sass/general.scss';
+
+Amplify.configure(config);
 
 ReactDOM.render(
   <React.StrictMode>
