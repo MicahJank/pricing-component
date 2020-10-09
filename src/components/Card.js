@@ -1,7 +1,7 @@
 import React from 'react';
 import '../sass/card.scss';
 
-const Card = ({type, price, storage, users, send}) => {
+const Card = ({ type, price, storage, users, send }) => {
 
     return (
         <div className='card'>

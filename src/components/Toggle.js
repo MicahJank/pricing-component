@@ -3,8 +3,8 @@ import ToggleButton from 'react-toggle-button';
 
 import '../sass/toggle.scss';
 
-const Toggle = () => {
-    const [toggle, setToggle] = useState(false);
+const Toggle = ({ toggle, setToggle }) => {
+  
 
 
     const handleToggle = (e) => {
