@@ -49,6 +49,10 @@
                 transform: translateX(23px);
                 transition: transform 0.1s;
             }
+
+            &:hover {
+                background: linear-gradient(to right,  hsla(236, 72%, 79%, 0.5), hsla(237, 63%, 64%, 0.5));
+            }
         }
     }
 }

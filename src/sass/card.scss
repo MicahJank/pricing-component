@@ -53,7 +53,7 @@
         text-align: center;
         color: white;
         background: linear-gradient(to right,  hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-        border: none;
+        border: 1px solid hsl(0, 0%, 100%);
         border-radius: 5px;
         padding: 15px 0;
         text-transform: uppercase;
@@ -64,6 +64,13 @@
 
         &:focus {
             outline: none;
+        }
+
+        &:hover {
+          color: hsl(237, 63%, 64%);
+          border: 1px solid hsl(237, 63%, 64%);
+          background: white;
+           
         }
     }
 
@@ -81,5 +88,12 @@
     button {
         color: hsl(237, 63%, 64%);
         background: white;
+        
+        &:hover {
+            color: white;
+            border: 1px solid white;
+            background: none;
+             
+          }
     }
 }
