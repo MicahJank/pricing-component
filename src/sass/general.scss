@@ -74,6 +74,11 @@ body {
 .App {
     background: url('../images/bg-bottom.svg') left bottom no-repeat, url('../images/bg-top.svg') right top no-repeat;
     background-repeat: no-repeat;
+
+    @media only screen and (max-width: 900px) {
+        background: url('../images/bg-top.svg') no-repeat;
+        background-position: 190px 0%;
+    }
 }
 
 h1 {
